@@ -1,0 +1,124 @@
+h4 {
+  margin-bottom: 0;
+  font-family: Times New Roman;
+  color: #d6a782;
+  font-size: 20px;
+}
+
+ul, ol {
+  margin-top: 0;
+}
+
+.copyright {
+  font-family: Times New Roman;
+  font-size: 9px;
+}
+
+body {
+  background-color: #886444;
+    padding: 0;
+    margin: 0;
+}
+
+div#cookieHeader {
+  font-family: Times New Roman;
+  color: white;
+  text-align: center;
+  padding-top: 25vh;
+  width: 100vw;
+  height: 50vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+  background-image: none; 
+
+}
+
+#cookieHeader.tp6 {
+  font-size: 50px;
+    color: white;
+}
+
+ul, ol {
+  display: none; 
+}
+
+ul.showMe,
+ol.showMe {
+  display: block;
+}
+
+#contributor {
+  DISPLAY: BLOCK;
+  width: 100%;
+}
+
+#menu {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100vw;
+  height: 3.1rem;
+  background: #533122;
+}
+
+#menu a{
+  color:#d6a782;
+  text-decoration:none;
+  font-family: Times New Roman;
+  white-space:nowrap;
+  font-size:23px;
+  line-height:0.5;
+  padding: 1rem;
+}
+
+
+/* this is mobile-first CSS for 3 rows */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  width: 100vw;
+  padding: 2vw;
+}
+
+#ingredients {  
+}
+
+#equipment {
+ 
+}
+
+#directions {
+ 
+}
+
+h4 {
+  font-size: 30px;
+}
+
+#footer {
+  font-size: 10px;
+  color: black;
+  
+}
+
+/* responsive design */
+@media (orientation:landscape) {
+  
+  div {
+    width: calc(100vw/3 - 1vw);
+    float: left;
+  }
+  
+  h4 {
+    font-size: 20px;
+  }
+}
